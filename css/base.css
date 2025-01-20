@@ -1,0 +1,17 @@
+ /* Custom scrollbar styles */
+ .product-list::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: #DDD6D7;
+}
+
+.product-list::-webkit-scrollbar-thumb {
+    background-color: #231F20;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-list::-webkit-scrollbar-thumb:hover {
+    background-color: #212121;
+    height: 6px;
+}
